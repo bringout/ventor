@@ -2,7 +2,7 @@
 
 This addon depends on:
 
-- [product](../../odoo-bringout-oca-ocb-product)
-- [sale](../../odoo-bringout-oca-ocb-sale)
-- [purchase](../../odoo-bringout-oca-ocb-purchase)
-- [stock](../../odoo-bringout-oca-ocb-stock)
+- [product](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-product)
+- [sale](../../../../../oca-ocb-sale/odoo-bringout-oca-ocb-sale)
+- [purchase](../../../../../oca-ocb-core/odoo-bringout-oca-ocb-purchase)
+- [stock](../../../../../oca-ocb-warehouse/odoo-bringout-oca-ocb-stock)
