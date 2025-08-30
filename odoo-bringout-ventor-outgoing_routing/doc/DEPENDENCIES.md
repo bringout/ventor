@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [sale_management](https://github.com/bringout/oca-ocb-sale/tree/de00eb97dbc73b96112477e8671cd8ab774267d5/odoo-bringout-oca-ocb-sale_management)
-- [stock_picking_batch](https://github.com/bringout/oca-ocb-warehouse/tree/9b14fcb23c7ebeb2f1d8695642aaa941064d4d00/odoo-bringout-oca-ocb-stock_picking_batch)
-- [ventor_base](https://github.com/bringout/ventor/tree/49cfa864545fd15838c5ff457f4c29e0cc7244e5/odoo-bringout-ventor-ventor_base)
+- [sale_management](https://github.com/bringout/oca-ocb-sale/tree/cfc4dbeb59ab3594bd1aa8f3bb16a1ee00557b4d/odoo-bringout-oca-ocb-sale_management)
+- [stock_picking_batch](https://github.com/bringout/oca-ocb-warehouse/tree/ffbc26923f1cbb52ea57b79a3bc1781623af2ae9/odoo-bringout-oca-ocb-stock_picking_batch)
+- [ventor_base](https://github.com/bringout/ventor/tree/2c3ce1d0bffd6edafe67e0732202290dd88375a0/odoo-bringout-ventor-ventor_base)
