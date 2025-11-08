@@ -16,20 +16,24 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: ventor_base
-#: code:addons/ventor_base/models/stock_picking.py:0
+#: code:addons/ventor_base/models/stock_picking.py
 #, python-format
 msgid ""
 "'Autocomplete item quantity' is available only if 'Change destination "
 "location' is enabled"
 msgstr ""
+"'Automatski unesi količinu stavke' je dostupno samo ako je omogućeno "
+"'Promijeni odredišnu lokaciju'."
 
 #. module: ventor_base
-#: code:addons/ventor_base/models/stock_picking.py:0
+#: code:addons/ventor_base/models/stock_picking.py
 #, python-format
 msgid ""
 "'Change source location' is available only if 'Confirm source location' is "
 "enabled"
 msgstr ""
+"'Promijeni izvornu lokaciju' je dostupno samo ako je omogućeno 'Potvrdi "
+"izvornu lokaciju'."
 
 #. module: ventor_base
 #: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
@@ -62,6 +66,9 @@ msgid ""
 "Allow scan product owner. You can specify product owner while moving items. "
 "Working only with 'Consignment' setting on Odoo side"
 msgstr ""
+"Dozvoli skeniranje vlasnika proizvoda. Možete navesti vlasnika proizvoda "
+"tokom premještanja stavki. Radi samo uz postavku 'Konzignacija' na Odoo "
+"strani."
 
 #. module: ventor_base
 #: model:ir.model.fields,field_description:ventor_base.field_res_users__allowed_warehouse_ids
@@ -89,12 +96,14 @@ msgid "Always Split the Line"
 msgstr "Always Split the Line"
 
 #. module: ventor_base
-#: code:addons/ventor_base/models/res_company.py:0
+#: code:addons/ventor_base/models/res_company.py
 #, python-format
 msgid ""
 "Apparently, the logotype is not a .png file or the file was incorrectly "
 "converted to .png format"
 msgstr ""
+"Izgleda da logotip nije .png datoteka ili je datoteka pogrešno konvertovana "
+"u .png format."
 
 #. module: ventor_base
 #: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__apply_default_lots
@@ -108,7 +117,6 @@ msgstr "Apply quantity automatically"
 
 #. module: ventor_base
 #: model:ir.model.fields.selection,name:ventor_base.selection__stock_picking_type__behavior_on_backorder_creation__ask_me_every_time
-#: model:ir.model.fields.selection,name:ventor_base.selection__stock_picking_type__behavior_on_split_operation__ask_me_every_time
 msgid "Ask Me Every Time"
 msgstr "Ask Me Every Time"
 
@@ -123,6 +131,8 @@ msgid ""
 "Automatically insert expected quantity. No need to enter the quantity of "
 "goods using the keyboard or using scanning"
 msgstr ""
+"Automatski unesi očekivanu količinu. Nema potrebe da unosite količinu robe "
+"putem tastature ili skeniranjem."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__apply_quantity_automatically
@@ -130,17 +140,16 @@ msgid ""
 "Automatically validate the line after scanning a destination location. "
 "Warning: you have to insert QTY first before destination location"
 msgstr ""
+"Automatski validiraj stavku nakon skeniranja odredišne lokacije. Upozorenje:"
+" najprije morate unijeti količinu prije odredišne lokacije."
 
 #. module: ventor_base
 #: model:ir.model.fields,field_description:ventor_base.field_res_config_settings__base_version
-#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
 msgid "Base Module Version"
 msgstr "Base Module Version"
 
 #. module: ventor_base
 #: model:ir.actions.act_window,name:ventor_base.ventor_batch_picking_action
-#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__batch_picking
-#: model:ir.ui.menu,name:ventor_base.ventor_batch_picking_app_menu
 msgid "Batch Picking"
 msgstr "Batch Izbor"
 
@@ -190,6 +199,9 @@ msgid ""
 "Choose how to process backorders. You can always create backorders, always "
 "ignore backorders or choose it all the time (default)"
 msgstr ""
+"Odaberite kako ćete obrađivati zaostale narudžbe. Možete uvijek kreirati "
+"zaostale narudžbe, uvijek ih ignorisati ili svaki put birati "
+"(podrazumijevano)."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__behavior_on_split_operation
@@ -197,11 +209,12 @@ msgid ""
 "Choose how to process less product qty than initial. You can always split "
 "the line, always move less items or choose it all the time(default)"
 msgstr ""
+"Odaberite kako ćete postupati kada je količina proizvoda manja od početne. "
+"Možete uvijek podijeliti stavku, uvijek prenijeti manji broj artikala ili "
+"svaki put birati (podrazumijevano)."
 
 #. module: ventor_base
 #: model:ir.actions.act_window,name:ventor_base.ventor_cluster_picking_action
-#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__cluster_picking
-#: model:ir.ui.menu,name:ventor_base.ventor_cluster_picking_app_menu
 msgid "Cluster Picking"
 msgstr "Cluster Izbor"
 
@@ -267,6 +280,9 @@ msgid ""
 "                              that will allow to define global Ventor settings \n"
 "                              from the Odoo interface."
 msgstr ""
+"Omogućite prikaz novog glavnog menija \"Ventor konfiguracija\" \n"
+"                              koji omogućava definisanje globalnih Ventor postavki \n"
+"                              direktno iz Odoo interfejsa."
 
 #. module: ventor_base
 #: model:res.groups,name:ventor_base.merp_external_management
@@ -275,7 +291,6 @@ msgstr "External Transfers Menu"
 
 #. module: ventor_base
 #: model:ir.model.fields,field_description:ventor_base.field_res_company__force_lot_validation_on_inventory_adjustment
-#: model:ir.model.fields,field_description:ventor_base.field_res_config_settings__force_lot_validation_on_inventory_adjustment
 msgid "Force Lot Validation on Inventory Adjustment"
 msgstr "Force Lot Važećiation on Inventory Adjustment"
 
@@ -307,6 +322,10 @@ msgid ""
 "                              If it's unchecked the user will not be able to modify settings on the \n"
 "                              device manually. Global Ventor Settings will be used instead."
 msgstr ""
+"Ako je označeno, ručne postavke (definisane na uređaju od strane ovog korisnika) \n"
+"                              biće korištene umjesto globalnih Ventor postavki u Odoo-u. \n"
+"                              Ako nije označeno, korisnik neće moći ručno mijenjati postavke na uređaju. \n"
+"                              Umjesto toga koristiće se globalne Ventor postavke."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__apply_default_lots
@@ -316,6 +335,10 @@ msgid ""
 "delivery zone you don't need to confirm lots and they will be taken Odoo by "
 "default"
 msgstr ""
+"Ako je uključeno, ne morate skenirati broj lota da biste ga potvrdili. "
+"Prilikom prijema aplikacija će kreirati podrazumijevane Odoo lotove i "
+"primijeniti ih na proizvod. U zoni isporuke nije potrebno potvrđivati lotove"
+" jer će ih Odoo preuzeti podrazumijevano."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__check_shipping_information
@@ -323,12 +346,16 @@ msgid ""
 "If the setting is active the user can edit shipping information before "
 "validate OUT transfer"
 msgstr ""
+"Ako je postavka aktivna, korisnik može urediti informacije o isporuci prije "
+"potvrđivanja izlaznog transfera."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__scan_destination_package
 msgid ""
 "If this active user has to scan a destination package (pallet) all the time"
 msgstr ""
+"Ako je ova postavka aktivna, korisnik mora svaki put skenirati odredišni "
+"paket (paletu)."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__change_destination_location
@@ -336,11 +363,11 @@ msgid ""
 "If this setting is active a user can change destination location while "
 "receiving to be placed at any available location"
 msgstr ""
+"Ako je postavka aktivna, korisnik može promijeniti odredišnu lokaciju tokom "
+"prijema i smjestiti robu na bilo koju dostupnu lokaciju."
 
 #. module: ventor_base
 #: model:ir.actions.act_window,name:ventor_base.ventor_instant_inventory_action
-#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__instant_inventory
-#: model:ir.ui.menu,name:ventor_base.ventor_instant_inventory_app_menu
 msgid "Instant Inventory"
 msgstr "Instant Inventory"
 
@@ -351,8 +378,6 @@ msgstr "Instant Inventory Menu"
 
 #. module: ventor_base
 #: model:ir.actions.act_window,name:ventor_base.ventor_internal_transfers_action
-#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__internal_transfers
-#: model:ir.ui.menu,name:ventor_base.ventor_internal_transfers_app_menu
 msgid "Internal Transfers"
 msgstr "Interni prenosi"
 
@@ -443,8 +468,6 @@ msgstr "Outgoing Routing"
 
 #. module: ventor_base
 #: model:ir.actions.act_window,name:ventor_base.ventor_package_management_action
-#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__package_management
-#: model:ir.ui.menu,name:ventor_base.ventor_package_management_app_menu
 msgid "Package Management"
 msgstr "Paket Management"
 
@@ -465,11 +488,12 @@ msgid ""
 "during picking and delivery. It is recommended to disable the setting for "
 "the reception area"
 msgstr ""
+"Polje proizvoda prikazaće sljedeći proizvod za preuzimanje. Koristite ovu "
+"postavku tokom komisioniranja i isporuke. Preporučuje se da je onemogućite u"
+" zoni prijema."
 
 #. module: ventor_base
 #: model:ir.actions.act_window,name:ventor_base.ventor_putaway_action
-#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__putaway
-#: model:ir.ui.menu,name:ventor_base.ventor_putaway_app_menu
 msgid "Putaway"
 msgstr "Putaway"
 
@@ -500,7 +524,6 @@ msgstr "Quick Info: Update product on hand"
 
 #. module: ventor_base
 #: model:ir.actions.act_window,name:ventor_base.ventor_quick_info_action
-#: model:ir.ui.menu,name:ventor_base.ventor_quick_info_app_menu
 msgid "Quick info"
 msgstr "Quick info"
 
@@ -511,6 +534,9 @@ msgid ""
 "\n"
 " If you want to use Show packages fields, you must turn on setting 'Packages' in inventory settings"
 msgstr ""
+"Skenirajte izvorne (odredišne) pakete odmah nakon skeniranja izvorne (odredišne) lokacije. Koristite ovo kada prelazite s jednog paketa na drugi ili uzimate stavke iz paketa ili paleta. Radi samo ako je na Odoo strani aktivirana postavka upravljanja paketima.\n"
+"\n"
+" Ako želite koristiti polja Prikaži pakete, morate uključiti postavku 'Paketi' u postavkama inventara."
 
 #. module: ventor_base
 #: model:ir.ui.menu,name:ventor_base.ventor_app_settings
@@ -553,6 +579,8 @@ msgid ""
 "Showing the Print attachments button in the toolbar instead of keeping it in"
 " the hidden menu"
 msgstr ""
+"Prikaži dugme \"Štampaj priloge\" u alatnoj traci umjesto u skrivenom "
+"meniju."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__show_put_in_pack_button
@@ -560,6 +588,7 @@ msgid ""
 "Showing the Put in pack button in the toolbar instead of keeping it in the "
 "hidden menu"
 msgstr ""
+"Prikaži dugme \"Stavi u paket\" u alatnoj traci umjesto u skrivenom meniju."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__confirm_destination_location
@@ -567,6 +596,8 @@ msgid ""
 "The dot next to the field gets yellow color means user has to confirm it. "
 "User has to scan a barcode of destination location"
 msgstr ""
+"Tačka pored polja postaje žuta što znači da je korisnik mora potvrditi. "
+"Korisnik treba skenirati barkod odredišne lokacije."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__confirm_product
@@ -574,6 +605,8 @@ msgid ""
 "The dot next to the field gets yellow color means user has to confirm it. "
 "User has to scan a barcode of product."
 msgstr ""
+"Tačka pored polja postaje žuta što znači da je korisnik mora potvrditi. "
+"Korisnik treba skenirati barkod proizvoda."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__confirm_source_location
@@ -581,6 +614,8 @@ msgid ""
 "The dot next to the field gets yellow color means user has to confirm it. "
 "User has to scan a barcode of source location"
 msgstr ""
+"Tačka pored polja postaje žuta što znači da je korisnik mora potvrditi. "
+"Korisnik treba skenirati barkod izvorne lokacije."
 
 #. module: ventor_base
 #: model:res.groups,comment:ventor_base.merp_user_validate_inventory_adjustment
@@ -588,7 +623,7 @@ msgid "The group allows Inventory/User to validate inventory"
 msgstr "The group allows Inventory/User to validate inventory"
 
 #. module: ventor_base
-#: code:addons/ventor_base/models/res_company.py:0
+#: code:addons/ventor_base/models/res_company.py
 #, python-format
 msgid "The logotype can't be less than {}x{} px."
 msgstr "The logotype can't be less than {}x{} px."
@@ -605,7 +640,6 @@ msgstr "Use local user device settings"
 
 #. module: ventor_base
 #: model:ir.model.fields,field_description:ventor_base.field_res_users__ventor_user_settings
-#: model:ir.ui.menu,name:ventor_base.ventor_app_user_settings_menu
 msgid "User Settings"
 msgstr "Korisničke postavke"
 
@@ -615,6 +649,9 @@ msgid ""
 "User can change default source location to pick item from another location. "
 "Works only if 'Confirm source location' setting is active"
 msgstr ""
+"Korisnik može promijeniti podrazumijevanu izvornu lokaciju da bi uzeo stavku"
+" s druge lokacije. Radi samo ako je aktivirana postavka 'Potvrdi izvornu "
+"lokaciju'."
 
 #. module: ventor_base
 #: model:ir.model.fields,help:ventor_base.field_stock_picking_type__confirm_source_package
@@ -622,6 +659,8 @@ msgid ""
 "User has to scan a barcode of source package. The dot next to the field gets"
 " yellow color means user has to confirm it"
 msgstr ""
+"Korisnik mora skenirati barkod izvornog paketa. Tačka pored polja postaje "
+"žuta što znači da ga mora potvrditi."
 
 #. module: ventor_base
 #: model:ir.model,name:ventor_base.model_res_users
@@ -640,7 +679,6 @@ msgstr "Ventor Access Rights"
 
 #. module: ventor_base
 #: model:ir.model.fields,field_description:ventor_base.field_res_company__logotype_file
-#: model:ir.model.fields,field_description:ventor_base.field_res_config_settings__logotype_file
 msgid "Ventor Application Logo File"
 msgstr "Ventor Application Logo File"
 
@@ -656,8 +694,6 @@ msgstr "Ventor Base Version"
 
 #. module: ventor_base
 #: model:ir.ui.menu,name:ventor_base.ventor_app_base_menu
-#: model_terms:ir.ui.view,arch_db:ventor_base.ventor_stock_picking_form
-#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
 msgid "Ventor Configuration"
 msgstr "Ventor Configuration"
 
@@ -688,14 +724,11 @@ msgstr "Ventor Setting Value"
 
 #. module: ventor_base
 #: model:ir.model,name:ventor_base.model_stock_warehouse
-#: model:ir.model.fields,field_description:ventor_base.field_stock_location__warehouse_id
-#: model_terms:ir.ui.view,arch_db:ventor_base.view_location_search
 msgid "Warehouse"
 msgstr "Skladište"
 
 #. module: ventor_base
 #: model:ir.actions.act_window,name:ventor_base.ventor_stock_picking_action
-#: model:ir.ui.menu,name:ventor_base.ventor_wh_operations_app_menu
 msgid "Warehouse Operations"
 msgstr "Warehouse Operations"
 
@@ -720,8 +753,7 @@ msgid "Warehouse worker"
 msgstr "Warehouse worker"
 
 #. module: ventor_base
-#: code:addons/ventor_base/models/stock_picking.py:0
-#: code:addons/ventor_base/models/stock_picking.py:0
+#: code:addons/ventor_base/models/stock_picking.py
 #, python-format
 msgid "Warning"
 msgstr "Upozorenje"
@@ -733,9 +765,12 @@ msgid ""
 "                            the Allowed Warehouses configuration is ignored and \n"
 "                            the user will still be able to see all warehouses"
 msgstr ""
+"Upozorenje! Ako je korisnik u ulozi Inventar / Administrator, \n"
+"                            konfiguracija dozvoljenih skladišta se ignoriše i \n"
+"                            korisnik će i dalje moći vidjeti sva skladišta."
 
 #. module: ventor_base
-#: code:addons/ventor_base/models/stock_quant.py:0
+#: code:addons/ventor_base/models/stock_quant.py
 #, python-format
 msgid "You need to supply a Lot/Serial number for product: %s"
 msgstr "You need to supply a Lot/Serial number for product: %s"

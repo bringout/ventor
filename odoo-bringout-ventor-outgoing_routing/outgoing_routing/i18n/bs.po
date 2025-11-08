@@ -26,6 +26,8 @@ msgid ""
 "- quants are reserved first in locations that contain a sufficient amount of"
 " product and have higher priority (i.e. from location name 'A' and beyond)"
 msgstr ""
+"- quants are reserved first in locations that contain a sufficient Iznos of "
+"Proizvod and have higher priority (i.e. from location Naziv 'A' and beyond)"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
@@ -33,6 +35,8 @@ msgid ""
 "- quants are reserved first in locations that contain a sufficient amount of"
 " product and have higher priority (i.e. from location name 'Z' to 'A')"
 msgstr ""
+"- quants are reserved first in locations that contain a sufficient Iznos of "
+"Proizvod and have higher priority (i.e. from location Naziv 'Z' to 'A')"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
@@ -41,6 +45,9 @@ msgid ""
 " product and have higher priority (i.e. from location with removal priority "
 "'0' to '∞')"
 msgstr ""
+"- quants are reserved first in locations that contain a sufficient Iznos of "
+"Proizvod and have higher priority (i.e. from location with removal priority "
+"'0' to '∞')"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
@@ -49,6 +56,9 @@ msgid ""
 " product and have higher priority (i.e. from location with removal priority "
 "'∞' to '0')"
 msgstr ""
+"- quants are reserved first in locations that contain a sufficient Iznos of "
+"Proizvod and have higher priority (i.e. from location with removal priority "
+"'∞' to '0')"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
@@ -60,12 +70,14 @@ msgstr "- quants are reserved in Odoo standard way (FIFO/LIFO)"
 msgid ""
 "- the route is calculated from <b>location</b> '<b>A</b>' to '<b>Z</b>'"
 msgstr ""
+"- the route is calculated from <b>location</b> '<b>A</b>' to '<b>Z</b>'"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
 msgid ""
 "- the route is calculated from <b>location</b> '<b>Z</b>' to '<b>A</b>'"
 msgstr ""
+"- the route is calculated from <b>location</b> '<b>Z</b>' to '<b>A</b>'"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
@@ -73,6 +85,8 @@ msgid ""
 "- the route is calculated from location contains <b>product</b> '<b>A</b>' "
 "to '<b>Z</b>'"
 msgstr ""
+"- the route is calculated from location contains <b>Proizvod</b> '<b>A</b>' "
+"to '<b>Z</b>'"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
@@ -80,6 +94,8 @@ msgid ""
 "- the route is calculated from location contains <b>product</b> '<b>Z</b>' "
 "to '<b>A</b>'"
 msgstr ""
+"- the route is calculated from location contains <b>Proizvod</b> '<b>Z</b>' "
+"to '<b>A</b>'"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
@@ -87,6 +103,8 @@ msgid ""
 "- the route is calculated from location with <b>removal priority</b> "
 "'<b>0</b>' to '<b>∞</b>'"
 msgstr ""
+"- the route is calculated from location with <b>removal priority</b> "
+"'<b>0</b>' to '<b>∞</b>'"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
@@ -94,6 +112,8 @@ msgid ""
 "- the route is calculated from location with <b>removal priority</b> "
 "'<b>∞</b>' to '<b>0</b>'"
 msgstr ""
+"- the route is calculated from location with <b>removal priority</b> "
+"'<b>∞</b>' to '<b>0</b>'"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
@@ -127,8 +147,6 @@ msgstr "Kompanije"
 
 #. module: outgoing_routing
 #: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking__company_id
-#: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking_batch__company_id
-#: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking_mixin__company_id
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -148,7 +166,7 @@ msgid "Descending (Z-A)"
 msgstr "Descending (Z-A)"
 
 #. module: outgoing_routing
-#: code:addons/outgoing_routing/models/stock_picking.py:0
+#: code:addons/outgoing_routing/models/stock_picking.py
 #, python-format
 msgid "Hint: operations are sorted by {} in {} order."
 msgstr "Hint: Operacije are sorted by {} in {} Narudžba."
@@ -170,26 +188,21 @@ msgstr "Location removal priority"
 
 #. module: outgoing_routing
 #: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking_batch__related_pack_operations
-#: model_terms:ir.ui.view,arch_db:outgoing_routing.view_picking_wave_form
 msgid "Operations"
 msgstr "Operacije"
 
 #. module: outgoing_routing
 #: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking__operations_to_pick
-#: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking_batch__operations_to_pick
 msgid "Operations to Pick"
 msgstr "Operacije to Pick"
 
 #. module: outgoing_routing
 #: model:ir.model.fields,field_description:outgoing_routing.field_res_company__outgoing_routing_order
-#: model:ir.model.fields,field_description:outgoing_routing.field_res_config_settings__outgoing_routing_order
 msgid "Picking Order"
 msgstr "Picking Narudžba"
 
 #. module: outgoing_routing
 #: model:ir.model.fields,field_description:outgoing_routing.field_res_company__outgoing_routing_strategy
-#: model:ir.model.fields,field_description:outgoing_routing.field_res_config_settings__outgoing_routing_strategy
-#: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
 msgid "Picking Strategy"
 msgstr "Picking Strategy"
 
@@ -220,22 +233,16 @@ msgstr "Količine"
 
 #. module: outgoing_routing
 #: model:ir.model.fields,field_description:outgoing_routing.field_stock_location__removal_prio
-#: model:ir.model.fields,field_description:outgoing_routing.field_stock_quant__removal_prio
 msgid "Removal Priority"
 msgstr "Prioritet uklanjanja"
 
 #. module: outgoing_routing
 #: model:ir.model.fields,field_description:outgoing_routing.field_res_company__stock_reservation_strategy
-#: model:ir.model.fields,field_description:outgoing_routing.field_res_config_settings__stock_reservation_strategy
-#: model_terms:ir.ui.view,arch_db:outgoing_routing.view_stock_config_settings
 msgid "Reservation Strategy"
 msgstr "Reservation Strategy"
 
 #. module: outgoing_routing
 #: model:ir.model.fields,field_description:outgoing_routing.field_res_company__routing_module_version
-#: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking__routing_module_version
-#: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking_batch__routing_module_version
-#: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking_mixin__routing_module_version
 msgid "Routing Module Version"
 msgstr "Routing Module Version"
 
@@ -256,13 +263,11 @@ msgstr "Zalihe Picking Mješavina"
 
 #. module: outgoing_routing
 #: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking__strategy_order_r
-#: model:ir.model.fields,field_description:outgoing_routing.field_stock_picking_batch__strategy_order_r
 msgid "Strategy Order"
 msgstr "Strategy Narudžba"
 
 #. module: outgoing_routing
 #: model_terms:ir.ui.view,arch_db:outgoing_routing.view_picking_form
-#: model_terms:ir.ui.view,arch_db:outgoing_routing.view_picking_wave_form
 msgid "To Process"
 msgstr "Za obradu"
 

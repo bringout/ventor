@@ -27,15 +27,11 @@ msgstr "Otkaži"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__create_uid
-#: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__create_uid
-#: model:ir.model.fields,field_description:custom_import_wizard.field_info_result_import_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__create_date
-#: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__create_date
-#: model:ir.model.fields,field_description:custom_import_wizard.field_info_result_import_wizard__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -56,8 +52,6 @@ msgstr "Prilagođeni uvoz Čarobnjak"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__display_name
-#: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__display_name
-#: model:ir.model.fields,field_description:custom_import_wizard.field_info_result_import_wizard__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -88,8 +82,6 @@ msgstr "Formaatted File Naziv"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__id
-#: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__id
-#: model:ir.model.fields,field_description:custom_import_wizard.field_info_result_import_wizard__id
 msgid "ID"
 msgstr "ID"
 
@@ -130,22 +122,16 @@ msgstr "Info: "
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history____last_update
-#: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard____last_update
-#: model:ir.model.fields,field_description:custom_import_wizard.field_info_result_import_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__write_uid
-#: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__write_uid
-#: model:ir.model.fields,field_description:custom_import_wizard.field_info_result_import_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__write_date
-#: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__write_date
-#: model:ir.model.fields,field_description:custom_import_wizard.field_info_result_import_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -166,20 +152,18 @@ msgstr "Samo odgovorna osoba može pristupiti funkciji uvoza"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__original_file
-#: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__original_file
 msgid "Original File"
-msgstr "Original File"
+msgstr "Originalna datoteka"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__original_file_name
-#: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__original_file_name
 msgid "Original File Name"
 msgstr "Original File Naziv"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__result_file
 msgid "Result File"
-msgstr "Result File"
+msgstr "Datoteka sa rezultatima"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__result_file_name
@@ -189,7 +173,7 @@ msgstr "Result File Naziv"
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_wizard__sample_file
 msgid "Sample File"
-msgstr "Sample File"
+msgstr "Primjer datoteke"
 
 #. module: custom_import_wizard
 #: model_terms:ir.ui.view,arch_db:custom_import_wizard.custom_import_wizard_view_form
@@ -197,12 +181,14 @@ msgid "Sample Format"
 msgstr "Sample Formaat"
 
 #. module: custom_import_wizard
-#: code:addons/custom_import_wizard/wizard/custom_import_wizard.py:0
+#: code:addons/custom_import_wizard/wizard/custom_import_wizard.py
 #, python-format
 msgid ""
 "Successfully imported: {} | Duplicates not imported: {} | Error importing "
 "(bad info): {}"
 msgstr ""
+"Uspješno uvezeno: {} | Duplikati nisu uvezeni: {} | Greška pri uvozu (loši "
+"podaci): {}"
 
 #. module: custom_import_wizard
 #: model_terms:ir.ui.view,arch_db:custom_import_wizard.custom_import_wizard_view_form
