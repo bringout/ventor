@@ -53,17 +53,17 @@ msgstr "ID"
 #. module: product_multiple_barcodes
 #: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: product_multiple_barcodes
 #: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: product_multiple_barcodes
 #: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: product_multiple_barcodes
 #: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__name
@@ -78,7 +78,7 @@ msgstr "No error"
 #. module: product_multiple_barcodes
 #: model:ir.model,name:product_multiple_barcodes.model_product_product
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: product_multiple_barcodes
 #: model:ir.model,name:product_multiple_barcodes.model_product_barcode_multi
