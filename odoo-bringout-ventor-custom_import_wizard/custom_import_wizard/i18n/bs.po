@@ -123,17 +123,17 @@ msgstr "Info: "
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__model
