@@ -23,7 +23,7 @@ msgstr ""
 #. module: custom_import_wizard
 #: model_terms:ir.ui.view,arch_db:custom_import_wizard.custom_import_wizard_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__create_uid
@@ -53,7 +53,7 @@ msgstr "Prilagođeni uvoz Čarobnjak"
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__error_details
@@ -123,17 +123,17 @@ msgstr ""
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: custom_import_wizard
 #: model:ir.model.fields,field_description:custom_import_wizard.field_custom_import_history__model

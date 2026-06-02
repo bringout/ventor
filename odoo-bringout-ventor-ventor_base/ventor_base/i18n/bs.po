@@ -226,7 +226,7 @@ msgstr "Kompanije"
 #. module: ventor_base
 #: model:ir.model,name:ventor_base.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: ventor_base
 #: model:ir.actions.act_window,name:ventor_base.ventor_configs_action

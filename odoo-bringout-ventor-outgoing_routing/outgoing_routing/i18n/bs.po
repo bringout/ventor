@@ -147,7 +147,7 @@ msgstr "Kompanija"
 #. module: outgoing_routing
 #: model:ir.model,name:outgoing_routing.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: outgoing_routing
 #: model:ir.model.fields.selection,name:outgoing_routing.selection__res_company__stock_reservation_strategy__none
